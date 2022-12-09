@@ -1,0 +1,199 @@
+/* Body Style */
+body
+{
+	font-family: arial;
+	background: rgba(240, 242, 241, 1.0);
+}
+
+.container
+{
+	padding: 20px 30%;
+	color: #fff;
+}
+
+/* Remote Container */
+.remote_container
+{
+	width: 200px;
+	height: 600px;
+	overflow: hidden;
+	border-radius: 50px;
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1.0);
+}
+
+/* Top box Style */
+.top_slides
+{
+	width: 200px;
+	height: 250px;
+	background: rgba(58, 58, 58, 1.0);
+	overflow: hidden;
+}
+/* Bottom Box */
+.bottom_slides
+{
+	width: 200px;
+	height: 360px;
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(190deg,rgba(162, 162, 162, 1.0),rgba(90, 90, 90, 1.0),rgba(0, 0, 0, 1.0) 80%);
+}
+
+.color_1
+{
+	position: absolute;
+	z-index: 1;
+	background: rgba(0, 0, 0, 1.0);
+	width: 200px;
+	height: 500px;
+	margin-left: -110px;
+	transform: rotate(-17deg);
+}
+
+
+.dot
+{
+	width: 16px;
+	height: 3px;
+	margin-top: 10px;	
+	margin-left: 90px;
+	text-align: center;
+	border-radius: 30%;
+	box-shadow: inset 0px 0px 2px 2px rgba(86, 86, 86, 1.0);
+	color: black;
+	position: relative;
+}
+
+
+.dot p
+{
+	position: absolute;
+	margin-top: -12px;
+}
+
+
+.top_btn
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+.menu_btn,.led_btn
+{
+	width: 60px;
+	height: 60px;
+	background: rgba(58, 58, 58, 1.0);
+	display: inline-block;
+	margin-top: 160px;
+	margin-left: 25px;
+	text-align: center;
+	vertical-align: top;
+	border-radius: 100px;
+	box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 1.0),inset 1px 1px 2px 1px rgba(86, 86, 86, 1.0);
+}
+
+.menu_btn p
+{
+	margin-top: 20px;
+}
+
+
+.menu_btn:active
+{
+	box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 1.0);
+}
+
+
+.led_btn img
+{
+	width: 40%;
+	filter: invert(100%);
+	padding: 17px;
+}
+
+
+.led_btn:active
+{
+	box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 1.0);
+}
+
+
+
+
+
+.bottom_btn
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+}
+
+
+
+.microphone_btn,.play_btn
+{
+	width: 60px;
+	height: 60px;
+	background: rgba(58, 58, 58, 1.0);
+	margin-top: 20px;
+	margin-left: 25px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 1.0),inset 1px 1px 2px 1px rgba(86, 86, 86, 1.0);
+}
+
+.microphone_btn:active
+{
+	box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 1.0);
+}
+
+.microphone_btn img
+{
+	width: 40%;
+	filter: invert(100%);
+	padding: 18px;
+}
+
+.play_btn img
+{
+	width: 30%;
+	filter: invert(100%);
+	padding: 25px;
+  margin-top:-4px;
+  margin-left:-4px;
+}
+
+.play_btn:active
+{
+	box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 1.0);
+}
+
+.volume_btn
+{
+	width: 60px;
+	height: 140px;
+	background: rgba(58, 58, 58, 1.0);
+	float: right;
+	margin-top: -140px;
+	margin-right: 25px;
+	border-radius: 50px;
+	box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 1.0),inset 1px 1px 2px 1px rgba(86, 86, 86, 1.0);
+}
+
+.volume_btn h2
+{
+	margin-left: 24px;
+	margin-bottom: 40px;
+}
+
+.volume_btn a
+{
+	margin-left: 26px;
+	font-size: 30px;
+}
+
+.volume_btn:active
+{
+	box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 1.0);
+}
